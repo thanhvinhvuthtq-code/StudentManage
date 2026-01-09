@@ -1,5 +1,5 @@
-from api.database import SessionLocal
-from api.models import Student
+from backend.database import SessionLocal
+from backend.models import Student
 
 def seed_data():
     db = SessionLocal()
